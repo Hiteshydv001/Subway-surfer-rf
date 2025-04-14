@@ -1,0 +1,8 @@
+numpy
+opencv-python
+mss
+Pillow
+gymnasium
+stable-baselines3
+pygame
+pynput
