@@ -4,11 +4,11 @@
 # Ensure the project root is potentially discoverable
 import sys
 import os
-# sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))) # Optional
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))) # Optional
 
 # from agent.evaluate_agent import evaluate_agent
-
-from subway_ai.agent.train_agent import train_agent # Or evaluate_agent
+from subway_ai.agent.train_agent import train_agent  # Changed to absolute import (optional)
+import subway_ai.config as config  # Changed to absolute import (optional)
 
 if __name__ == "__main__":
     print("Executing Evaluation Script...")

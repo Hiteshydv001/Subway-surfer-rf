@@ -8,8 +8,8 @@ from stable_baselines3.common.vec_env import DummyVecEnv
 # from env.subway_env import SubwayEnv
 # import config
 
-from subway_ai.env.subway_env import SubwayEnv # Absolute import
-import subway_ai.config as config # Explicit absolute import
+from subway_ai.env.subway_env import SubwayEnv  # Absolute import
+import subway_ai.config as config
 
 def evaluate_agent():
     """Loads and evaluates a trained agent."""

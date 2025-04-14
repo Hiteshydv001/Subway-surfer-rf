@@ -10,8 +10,8 @@ import torch # Check if GPU is available
 # from env.subway_env import SubwayEnv
 # import config
 
-from subway_ai.env.subway_env import SubwayEnv # Absolute import
-import subway_ai.config as config # Explicit absolute import
+from subway_ai.env.subway_env import SubwayEnv  # Absolute import
+import subway_ai.config as config
 
 def train_agent():
     """Configures and trains the PPO agent."""
